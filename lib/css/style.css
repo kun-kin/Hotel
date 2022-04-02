@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #ffffff4d;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2%;
+  width: 27%;
+  height: 100px;
+  z-index: -1;
+  background-color: #fff;
+  transform: skew(23deg);
+}
+.header .logo {
+  color: black;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 57px;
+}
+.header .menu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.header .menu-list .menu-item .menu-link {
+  display: inline-block;
+  color: white;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 40px 20px;
+  text-transform: uppercase;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.header .menu-list .menu-item .booking-system {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0px 30px;
+  background-color: white;
+  color: red;
+}
+
+.header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+}
+
+.main section.banner {
+  background: url("../../images/bg-banner.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-top: -100px;
+}
+.main section.banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.21);
+}
+.main section.banner .banner-cont {
+  padding: 200px 0 50px;
+}
+.main section.banner .banner-cont h2 {
+  color: #fff;
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Cormorant", serif;
+}
+.main section.banner .banner-cont p {
+  margin-bottom: 30px;
+  color: #fff;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.9;
+  font-family: "Mulish", sans-serif;
+}
+.main section.banner .banner-cont .btn-get {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  outline: none !important;
+  color: #ffffff;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  z-index: 1;
+  overflow: hidden;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 0;
+  letter-spacing: 0.5px;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

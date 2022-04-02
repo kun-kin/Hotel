@@ -1,0 +1,55 @@
+.main {
+    section.banner {
+        background: url('../../images/bg-banner.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        margin-top: -100px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0 0 0 / 21%);
+        }
+        .banner-cont {
+            padding: 200px 0 50px;
+            h2 {
+                color: #fff;
+                margin: 0 0 20px;
+                font-weight: 700;
+                font-size: 50px;
+                font-family: 'Cormorant', serif;
+            }
+            p {
+                margin-bottom: 30px;
+                color: #fff;
+                line-height: 1.6;
+                font-size: 18px;
+                font-weight: 400;
+                opacity: 0.9;
+                font-family: 'Mulish', sans-serif;
+            }
+            .btn-get {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                -webkit-appearance: none;
+                outline: none !important;
+                color: #ffffff;
+                text-transform: capitalize;
+                transition: all 0.3s linear;
+                z-index: 1;
+                overflow: hidden;
+                padding: 0 30px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 50px;
+                border-radius: 0;
+                letter-spacing: 0.5px;
+                font-family: 'Mulish', sans-serif;
+            }
+        }
+    }
+}
