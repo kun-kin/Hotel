@@ -122,6 +122,12 @@ section.list-room {
             }
         }
     }
+    @media(max-width:991px) {
+        padding: 70px 0;
+    }
+    @media(max-width:768px) {
+        padding: 30px 0;
+    }
 }
 
 section.infor-room {
@@ -257,6 +263,9 @@ section.infor-room {
                 }
             }
         }
+    }
+    @media(max-width:768px) {
+        padding: 30px 0;
     }
 }
 

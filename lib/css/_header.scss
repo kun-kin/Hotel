@@ -163,7 +163,8 @@
             }
         }
         @media(max-width:1267px) {
-            .social {
+            .social,
+            .signup {
                 display: none;
             }
             .infor-right__item {
