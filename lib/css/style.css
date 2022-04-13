@@ -3327,6 +3327,23 @@ section.list-room .grid-room-grapper .grid-room-view .view-thumd img {
   height: 100%;
   object-fit: cover;
 }
+@media (max-width: 768px) {
+  section.list-room .grid-room-grapper .grid-room-view {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: none;
+  }
+  section.list-room .grid-room-grapper .grid-room-view .col-view {
+    width: 100%;
+  }
+  section.list-room .grid-room-grapper .grid-room-view .view-desc {
+    order: 2;
+  }
+  section.list-room .grid-room-grapper .grid-room-view .view-thumd {
+    height: 30vh;
+    order: 1;
+  }
+}
 
 section.infor-room {
   padding: 70px 0;

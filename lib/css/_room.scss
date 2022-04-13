@@ -105,6 +105,21 @@ section.list-room {
                     object-fit: cover;
                 }
             }
+            @media(max-width:768px) {
+                flex-direction: column;
+                flex-wrap: nowrap;
+                max-height: none;
+                .col-view {
+                    width: 100%;
+                }
+                .view-desc {
+                    order: 2;
+                }
+                .view-thumd {
+                    height: 30vh;
+                    order: 1;
+                }
+            }
         }
     }
 }
