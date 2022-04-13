@@ -2134,6 +2134,16 @@ section.gallery .grid-gallery .grid-item .grid-item__cont:hover::before {
   opacity: 0.7;
   transition: all 500ms linear 0ms;
 }
+@media (max-width: 991px) {
+  section.gallery {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 768px) {
+  section.gallery {
+    padding: 30px 0;
+  }
+}
 
 section.attack {
   position: relative;
@@ -2235,6 +2245,16 @@ section.contact-form .box-form .form-contact .btn-contact {
 section.contact-form .box-form .form-contact .btn-contact:hover {
   background: #c5a47e;
   color: #fff;
+}
+@media (max-width: 991px) {
+  section.contact-form {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 768px) {
+  section.contact-form {
+    padding: 30px 0;
+  }
 }
 
 section.map {
@@ -3046,6 +3066,16 @@ section.entry-gallery .gallery-thumd .head-chef .head-meta .sig-image {
 section.entry-gallery .gallery-thumd .head-chef .head-meta .sig-image img {
   max-height: inherit;
 }
+@media (max-width: 991px) {
+  section.entry-gallery {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 768px) {
+  section.entry-gallery {
+    padding: 30px 0;
+  }
+}
 
 section.foot-menu {
   margin-bottom: 70px;
@@ -3175,6 +3205,16 @@ section.book-table .book-table-main .book-table-inner .form-main .col-submid .bt
   background-color: #ececec;
   color: #222;
   transition: all 0.3s linear;
+}
+@media (max-width: 768px) {
+  section.book-table .book-table-main .book-table-inner {
+    padding: 24px;
+  }
+}
+@media (max-width: 768px) {
+  section.book-table .book-table-main {
+    padding: 30px 0;
+  }
 }
 
 section.bar-club__content {
