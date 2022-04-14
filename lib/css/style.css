@@ -130,8 +130,8 @@
   opacity: 1;
   transition: all 0.3s linear;
 }
-.header .top-header__infor.right .singup {
-  display: inline-block;
+.header .top-header__infor.right .signup {
+  display: none;
 }
 .header .top-header__infor.right .social-list {
   display: flex;
