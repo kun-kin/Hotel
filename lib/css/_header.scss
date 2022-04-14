@@ -1,3 +1,38 @@
+.contacthotel {
+    background: #0072bd;
+    z-index: 111111;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    .topcontact {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        align-items: center;
+        font-weight: 600;
+        z-index: 111;
+        transition: all .5s ease-in-out;
+        .order {
+            display: flex;
+            color: #FFf;
+            align-items: center;
+            font-weight: 600;
+            z-index: 111;
+            a {
+                padding: 4px 15px;
+                border-radius: 5px;
+                background: #f8c218;
+            }
+            .closetop {
+                background-color: transparent;
+            }
+        }
+        a {
+            color: #FFF;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    }
+}
+
 .header {
     position: relative;
     z-index: 999;
