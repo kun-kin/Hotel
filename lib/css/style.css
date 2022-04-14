@@ -39,6 +39,14 @@
   color: #FFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+@media (max-width: 540px) {
+  .contacthotel {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+}
 
 .header {
   position: relative;
@@ -1679,7 +1687,7 @@ section.logo-slide {
 
 .footer {
   display: block;
-  padding-top: 60px;
+  padding: 60px 0;
   background-color: #222222;
 }
 .footer .footer-top {
